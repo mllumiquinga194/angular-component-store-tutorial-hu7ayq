@@ -1,0 +1,77 @@
+h1 {
+  margin-bottom: 0;
+}
+
+.box {
+  border: solid 1px lightgrey;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.box p {
+  margin: 0;
+}
+
+.box form {
+  display: flex;
+}
+
+.box form input {
+  margin-right: 0.5rem;
+}
+
+.box form button {
+  width: 80px;
+}
+
+.messages {
+  height: 2.4rem;
+  margin: 1rem 0;
+}
+
+.messages p {
+  border: solid 1px transparent;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.messages .error {
+  background-color: lightyellow;
+  border: solid 1px red;
+  color: red;
+  text-align: center;
+}
+
+.examples button {
+  border: 0;
+  background: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0.5rem 0 0;
+}
+
+.examples button:last-child {
+  margin: 0;
+}
+
+.shortcuts h5 {
+  margin: 0;
+}
+
+.code {
+  margin-top: 3rem;
+  border: solid 1px lightgray;
+  padding: 1rem;
+}
+
+.code h4 {
+  margin: 0 0 1rem;
+}
+
+.code pre {
+  margin: 0;
+}
